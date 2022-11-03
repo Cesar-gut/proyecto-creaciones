@@ -1,0 +1,68 @@
+
+      .seccion-form{
+        padding: 30px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mapita-sur{
+        /*display: flex;
+        justify-content: center;
+        align-items: center;*/
+        @include mapa;
+    }
+    .estilo-form{
+        background-color: rgb(206, 206, 206);
+        padding: 20px;
+        width: 300px;
+        height: 400px;
+    }
+    legend{
+        margin-bottom: 10px;
+        text-align: center;
+        font-weight: bold ;
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .datos-campo{
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #nombre{
+        width: 250px;
+        height: 25px;
+        margin-bottom:15px;
+    }
+    #telefono{
+        width: 250px;
+        height: 25px;
+        margin-bottom:15px;
+    }
+    #email{
+        width: 250px;
+        height: 25px;
+        margin-bottom:15px;
+    }
+    #mensaje{
+        width: 250px;
+        height: 85px;
+        margin-bottom:15px;
+    }
+    .boton-enviar{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .boton-enviar button{
+        background-color: rgb(60, 142, 196);
+        color: white;
+        border-radius: 6px;
+        width: 85px;
+        height: 35px;
+        border-style: none;
+    }
+    iframe{
+        width: 450px;
+        height: 350px;
+        padding-bottom: 20px;
+    }

@@ -1,0 +1,11 @@
+.foto1{
+    max-width: 100%;
+}
+
+.fotos-piñatas{
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;*/
+    @include prop-flex(column,center);
+}
+

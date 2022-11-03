@@ -1,0 +1,10 @@
+@mixin prop-flex ($direction,$align) {
+    display: flex;
+    flex-direction: $direction;
+    align-items: $align;
+}
+@mixin mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

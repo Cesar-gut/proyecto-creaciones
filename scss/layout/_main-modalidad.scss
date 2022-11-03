@@ -1,0 +1,32 @@
+.fondo{
+    background-image: url("../assets/img/fondo.jpeg");
+    width: 100%;
+    height: 850px;
+}
+.textotrabajo{
+    text-align: center;
+    padding: 50px 0;
+}
+.textotrabajo h2{
+    padding-bottom: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Rubik Dirt', cursive;
+    color: $color-texto;
+}
+.texto1 h3{
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: $color-texto;
+}
+.texto2 p{
+    padding-bottom: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: $color-texto;
+    padding-left: 20px;
+    padding-right: 20px;
+}

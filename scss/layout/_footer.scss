@@ -1,0 +1,27 @@
+footer{
+    background-color: rgb(202, 145, 154);
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    grid-area: footer;
+    justify-content: space-between;
+}
+.textofooter{
+    font-size: 15px;
+    color: $color-texto;
+    padding: 0px 30px;
+    padding-top: 15px;
+}
+.iconos1{
+    padding: 0px 12px;
+    padding-top: 12px;
+    padding-bottom: 8px;
+}
+.iconos2{
+    /*padding: 0px 12px;
+    padding-top: 12px;
+    padding-bottom: 8px;*/
+    @extend .iconos1;
+    text-align: center;
+    margin-top: 10px;
+}
