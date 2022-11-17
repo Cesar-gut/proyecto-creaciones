@@ -1,45 +1,9 @@
 @media(min-width:576px){
-    .navbar{
-        display: flex;
-        flex-direction: row;
-        padding: 10px 50px;
-        font-weight: bold;
-    }
-
-    nav{
-        display: block;
-    }
-    .menuhb i{
-        display: none;
-        color: brown;
-        font-size: 50px;
-    }
-    .menuhb{
-        display: flex;
-        align-items: center;
-        text-decoration: none;
-    }
     .foto1{
         max-width: 50%;
         padding: 8px 70px;
     }
     .fotos-piñatas{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    .logo img{
-        max-width: 200px;
-        display: flex;
-        align-items: center;
-    }
-    .logo1 img{
-        /*width: 350px;*/
-        display: flex;
-        align-items: center;
-        max-width: 200px;
-    }
-    .logos{
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -82,25 +46,11 @@
         font-family: 'Rubik Dirt', cursive;
         color: $color-texto;
     }
-    .imagenes-inicio {
-        /*max-width: 24.7%;*/
-        display:flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    .img-inicio{
-        height:455px;
-    }
-    .secciones{
+    .main-contacto{
         display: flex;
         flex-direction: row;
-        justify-content: center;
-    }
-    .main-contacto{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+        justify-content: space-around;
+        align-items: center;
     }
     .seccion-form{
         padding: 30px 0px;
@@ -109,7 +59,6 @@
         background-color: rgb(206, 206, 206);
         padding: 20px;
         width: 300px;
-        height: 400px;
     }
     legend{
         margin-bottom: 10px;
@@ -144,8 +93,7 @@
     }
     .boton-enviar{
         display: flex;
-        justify-content: center;
-        
+        justify-content: center; 
     }
     .boton-enviar button{
         background-color: rgb(60, 142, 196);
@@ -155,12 +103,12 @@
         height: 35px;
         border-style: none;
     }
-
+    
     iframe{
         width: 450px;
         height: 350px;
     }
-
+    
     .texto2 p{
         padding-left: 80px;
         padding-right: 80px;

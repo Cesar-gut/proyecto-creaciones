@@ -1,48 +1,14 @@
 header{
-    background-color: rgb(202, 145, 154);
-    width: 100%;
-    display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    grid-area: header;
-    justify-content: space-between;
 }
-.navbar{
-    /*display: flex;*/
-    flex-direction: row;
-    padding: 10px 50px;
-    font-weight: bold;
-    display: none;
+.logo{
+    height: 150px;
+    border-radius: 50%;
 }
-nav{
-    display: none;
-}
-.navbar li{
-    padding: 100px 30px;
 
+.navbar-brand{
+    padding-left: 35px;
 }
-.navbar li a{
-    text-decoration: none;
+.navbar-brand{
     color: $color-texto;
-    
 }
-.logo img{
-    width: 200px;
-    display: flex;
-    align-items: center;
-    max-width: 110%;
-}
-.logo1 img{
-    /*width: 350px;*/
-    display: flex;
-    align-items: center;
-    /*max-width: 200px;*/
-    max-width: 45%;
-}
-.logos{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-
